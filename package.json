@@ -1,5 +1,5 @@
 {
-  "name": "rak-prod",
+  "name": "askgame-prod",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kenjinaka/rakgameshop.git"
+    "url": "git+https://github.com/kenjinaka/askgameshop-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kenjinaka/rakgameshop/issues"
+    "url": "https://github.com/kenjinaka/askgameshop-app/issues"
   },
-  "homepage": "https://github.com/kenjinaka/rakgameshop#readme"
+  "homepage": "https://github.com/kenjinaka/askgameshop-app#readme"
 }

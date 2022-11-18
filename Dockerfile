@@ -8,17 +8,17 @@ USER appuser
 
 FROM mcr.microsoft.com/dotnet/sdk:2.1-focal AS build
 WORKDIR /src
-COPY ["RakAPI/RakGameShopAPI.csproj", "RakAPI/"]
-RUN dotnet restore "RakAPI/RakGameShopAPI.csproj"
+COPY ["AskgAPI/ASKGameShopAPI.csproj", "AskgAPI/"]
+RUN dotnet restore "AskgAPI/ASKGameShopAPI.csproj"
 COPY . .
 WORKDIR "/src/RakAPI"
-RUN dotnet build "RakGameShopAPI.csproj" -c Release -o /app/build
+RUN dotnet build "ASKGameShopAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "RakGameShopAPI.csproj" -c Release -o /app/publish
+RUN dotnet publish "ASKGameShopAPI.csproj" -c Release -o /app/publish
 
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 
-CMD ASPNETCORE_URLS="http://*:$PORT" dotnet RakGameShopAPI.dll
+CMD ASPNETCORE_URLS="http://*:$PORT" dotnet ASKGameShopAPI.dll

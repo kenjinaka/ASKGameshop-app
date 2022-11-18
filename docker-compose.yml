@@ -2,9 +2,9 @@
 version: '3.4'
 
 services:
-  rakgameshopapi:
-    container_name: rakgameshopapi
-    image: rakgameshopapi
+  askgameshopapi:
+    container_name: askgameshopapi
+    image: askgameshopapi
     environment:
       - PORT=5000
     ports:

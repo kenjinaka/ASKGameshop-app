@@ -3,10 +3,10 @@
 version: '3.4'
 
 services:
-  rakgameshopapi:
-    image: rakgameshopapi
+  askgameshopapi:
+    image: askgameshopapi
     build:
       context: .
-      dockerfile: RakAPI/Dockerfile
+      dockerfile: AskgAPI/Dockerfile
     volumes:
       - ~/.vsdbg:/remote_debugger:rw
