@@ -8,10 +8,10 @@ USER appuser
 
 FROM mcr.microsoft.com/dotnet/sdk:2.1-focal AS build
 WORKDIR /src
-COPY ["AskgAPI/ASKGameShopAPI.csproj", "AskgAPI/"]
-RUN dotnet restore "AskgAPI/ASKGameShopAPI.csproj"
+COPY ["ASKGameshopAPI/ASKGameShopAPI.csproj", "ASKGameshopAPI/"]
+RUN dotnet restore "ASKGameshopAPI/ASKGameShopAPI.csproj"
 COPY . .
-WORKDIR "/src/RakAPI"
+WORKDIR "/src/ASKGameshopAPI"
 RUN dotnet build "ASKGameShopAPI.csproj" -c Release -o /app/build
 
 FROM build AS publish
