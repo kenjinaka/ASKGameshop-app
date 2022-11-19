@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UwrX7fgRhV1iXTXj+XaURafbMY4DWPHxuKmka4ChtjxhRjxI6CZxrXZIRA3SdQe2UMCVRBqZu5/ORuqpssjbNA==",
+  "dgSpecHash": "aWg5s0YHLOfBK39r2dYbazqMLJGvoh7RiXBu3erPhqAGzJ0P2KCzyRmktzC8u74M89AVBXKHfOlb7BbFrSIagA==",
   "success": true,
-  "projectFilePath": "C:\\ws\\ASKGameshop-app\\ASKGameshop-API\\ASKGameShopAPI.csproj",
+  "projectFilePath": "C:\\ws\\ASKGameshop-app\\ASKGameshopAPI\\ASKGameShopAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kenji\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\Kenji\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",

@@ -11966,11 +11966,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ws\\ASKGameshop-app\\ASKGameshop-API\\ASKGameShopAPI.csproj",
+      "projectUniqueName": "C:\\ws\\ASKGameshop-app\\ASKGameshopAPI\\ASKGameShopAPI.csproj",
       "projectName": "ASKGameShopAPI",
-      "projectPath": "C:\\ws\\ASKGameshop-app\\ASKGameshop-API\\ASKGameShopAPI.csproj",
+      "projectPath": "C:\\ws\\ASKGameshop-app\\ASKGameshopAPI\\ASKGameShopAPI.csproj",
       "packagesPath": "C:\\Users\\Kenji\\.nuget\\packages\\",
-      "outputPath": "C:\\ws\\ASKGameshop-app\\ASKGameshop-API\\obj\\",
+      "outputPath": "C:\\ws\\ASKGameshop-app\\ASKGameshopAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
